@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-from random import uniform as rnd
-from streamlit_echarts import st_echarts
-import pandas as pd
 from catboost import CatBoostClassifier
 import numpy as np
 import time
