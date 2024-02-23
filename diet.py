@@ -3,7 +3,6 @@ import pandas as pd
 from catboost import CatBoostClassifier
 import numpy as np
 import time
-import base64
 
 st.set_page_config(page_title="Diet Recommendation", page_icon="💪", layout="wide")
 
