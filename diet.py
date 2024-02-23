@@ -1,5 +1,19 @@
 import streamlit as st
 import pandas as pd
+
+import os
+import sys
+
+# Replace 'your_script_directory' with the absolute path to your Streamlit script directory
+script_dir = r'C:\Users\Shilpa\AppData\Local\Programs\Python\Python39\Scripts'
+
+# Construct the path to the catboost_info folder within your project directory
+catboost_info_path = os.path.join(script_dir, 'catboost_info')
+
+# Add the catboost_info folder to the Python path
+sys.path.append(catboost_info_path)
+
+
 from catboost import CatBoostClassifier
 import numpy as np
 import time
