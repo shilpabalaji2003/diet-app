@@ -63,7 +63,7 @@ class Person:
 
     def generate_recommendation(self):
         # Load dataset
-        df = pd.read_csv(r'C:\Users\Shilpa\OneDrive - GEMS Education\Desktop\Mini project\Mini project source code\Streamlit Frontend\pages\main.csv')
+        df = pd.read_csv('main.csv')
 
         X = df[['Age', 'Height (in cm)', 'Weight (in kg)', 'Gender', 'Activity level', 'Nutritional preference', 'Disease']]
         y_breakfast = df['Breakfast']
