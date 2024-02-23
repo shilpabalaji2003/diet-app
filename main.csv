@@ -1,0 +1,500 @@
+Age,Height (in cm),Weight (in kg),Gender,Activity level,Nutritional preference,Disease,Breakfast,Lunch,Dinner
+80,175,88,Female,Light exercise,Veg,"Diabetes, Visual impairments","Oats, Banana and berries","Dal, Brown rice",Vegetable soup
+78,174,65,Male,Light exercise,Veg,"Diabetes, Visual impairments",Oats,"Vegetable curry, Brown rice","Vegetable soup, Fruit salad"
+73,153,100,Female,Light exercise,Veg,"Hypertension, Diabetes, Visual impairments",Banana and berries,"Dal, Vegetable curry, Brown rice, Green leafy vegetables",Buttermilk
+80,175,64,Male,Light exercise,Veg,Visual impairments,"Nuts, seeds and low-fat diary",Green leafy vegetables,Buttermilk
+33,182,88,Male,Moderate exercise (3-5 days/wk),Non-veg,Visual impairments,"Oats, Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Fish, Green leafy vegetables","Khichdi, Vegetable soup, Fish"
+85,165,75,Male,Little/No exercise,Non-veg,Diabetes,Oats,Fish,Khichdi
+74,150,60,Female,Extra active (very active & physical job),Non-veg,Cardiovascular diseases,Yoghurt with fruits,"Fish, Green leafy vegetables",Fish
+36,167,120,Female,Light exercise,Veg,"Visual impairments, No diseases",Egg,Vegetable curry,Vegetable soup
+85,179,58,Male,Light exercise,Non-veg,No diseases,Egg,Fish,Fruit salad
+89,156,48,Female,Extra active (very active & physical job),Non-veg,No diseases,"Oats, Egg, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Khichdi, Fish, Fruit salad, Buttermilk"
+75,167,46,Female,Moderate exercise (3-5 days/wk),Non-veg,No diseases,"Oats, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Fruit salad"
+80,154,61,Female,Very active (6-7 days/wk),Veg,"Hypertension, Diabetes",Oats,Vegetable curry,Khichdi
+58,172,89,Male,Moderate exercise (3-5 days/wk),Veg,Diabetes,Oats,Green leafy vegetables,Vegetable soup
+85,170.6,70,Male,Little/No exercise,Veg,Cardiovascular diseases,Oats,Vegetable curry,Vegetable soup
+70,155,42,Female,Little/No exercise,Non-veg,Depression and anxiety disorders,Banana and berries,Green leafy vegetables,Fish
+60,153,37,Female,Very active (6-7 days/wk),Veg,No diseases,"Nuts, seeds and low-fat diary",Vegetable curry,Vegetable soup
+80,154,67,Female,Light exercise,Non-veg,"Diabetes, Cardiovascular diseases",Oats,Green leafy vegetables,"Vegetable soup, Fruit salad"
+77,153,54,Female,Light exercise,Veg,"Diabetes, Visual impairments","Oats, Banana and berries","Vegetable curry, Fish, Green leafy vegetables","Vegetable soup, Fruit salad"
+80,150,39,Female,Extra active (very active & physical job),Veg,Arthritis,Egg,Green leafy vegetables,Fish
+93,175,70,Male,Extra active (very active & physical job),Non-veg,Arthritis,"Yoghurt with fruits, Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice","Khichdi, Fish, Fruit salad"
+19,157,46,Female,Extra active (very active & physical job),Non-veg,No diseases,"Oats, Yoghurt with fruits, Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Fish, Fruit salad"
+63,177,68,Male,Moderate exercise (3-5 days/wk),Veg,Diabetes,"Oats, Nuts, seeds and low-fat diary","Vegetable curry, Green leafy vegetables",Fish
+74,164,65,Female,Little/No exercise,Veg,"Diabetes, Cardiovascular diseases","Nuts, seeds and low-fat diary",Green leafy vegetables,Fruit salad
+58,158,60,Female,Very active (6-7 days/wk),Veg,No diseases,Yoghurt with fruits,Brown rice,Khichdi
+74,170,75,Male,Light exercise,Non-veg,No diseases,Oats,Green leafy vegetables,Khichdi
+85,170,55,Female,Little/No exercise,Veg,Visual impairments,"Oats, Banana and berries","Vegetable curry, Brown rice, Green leafy vegetables","Vegetable soup, Fruit salad"
+75,152,80,Female,Light exercise,Non-veg,No diseases,"Oats, Nuts, seeds and low-fat diary","Brown rice, Green leafy vegetables","Vegetable soup, Fish"
+20,162,58,Female,Moderate exercise (3-5 days/wk),Veg,No diseases,"Nuts, seeds and low-fat diary",Green leafy vegetables,Vegetable soup
+19,149,50,Female,Little/No exercise,Non-veg,No diseases,"Nuts, seeds and low-fat diary, Banana and berries","Vegetable curry, Fish, Green leafy vegetables",Fruit salad
+86,145,52,Female,Little/No exercise,Non-veg,No diseases,"Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Fish, Fruit salad"
+21,158,46,Female,Light exercise,Non-veg,No diseases,"Nuts, seeds and low-fat diary",Green leafy vegetables,Fruit salad
+94,172,58,Male,Light exercise,Veg,No diseases,"Oats, Nuts, seeds and low-fat diary, Banana and berries","Vegetable curry, Brown rice","Vegetable soup, Fruit salad"
+21,165,70,Female,Light exercise,Non-veg,No diseases,Yoghurt with fruits,Vegetable curry,Buttermilk
+79,160,40,Female,Little/No exercise,Veg,"Diabetes, Osteoporosis, Visual impairments","Egg, Nuts, seeds and low-fat diary, Banana and berries","Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Fruit salad, Buttermilk"
+19,165,55,Male,Light exercise,Non-veg,No diseases,"Oats, Yoghurt with fruits, Egg, Nuts, seeds and low-fat diary, Banana and berries","Vegetable curry, Fish, Green leafy vegetables","Vegetable soup, Fish, Buttermilk"
+68,154,43,Female,Light exercise,Non-veg,"Hypertension, Diabetes, Visual impairments","Egg, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Buttermilk"
+20,170,65,Female,Light exercise,Non-veg,No diseases,"Oats, Yoghurt with fruits, Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry","Khichdi, Fish, Fruit salad"
+67,165,70,Male,Moderate exercise (3-5 days/wk),Non-veg,Hypertension,"Oats, Yoghurt with fruits, Nuts, seeds and low-fat diary","Vegetable curry, Brown rice, Fish","Vegetable soup, Fruit salad"
+80,155,45,Female,Light exercise,Non-veg,"Arthritis, Diabetes, Visual impairments",Banana and berries,"Vegetable curry, Fish",Vegetable soup
+54,155,65,Male,Light exercise,Non-veg,"Hypertension, Diabetes","Nuts, seeds and low-fat diary",Green leafy vegetables,Fruit salad
+49,152,70,Female,Light exercise,Veg,"Hypertension, Arthritis",Oats,Vegetable curry,Fruit salad
+53,164,90,Male,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Diabetes",Banana and berries,"Brown rice, Fish",Fish
+76,160,60,Male,Very active (6-7 days/wk),Non-veg,Diabetes,"Egg, Nuts, seeds and low-fat diary, Banana and berries","Brown rice, Fish, Green leafy vegetables",Buttermilk
+61,175,71,Male,Moderate exercise (3-5 days/wk),Non-veg,No diseases,"Egg, Banana and berries","Vegetable curry, Brown rice, Fish, Green leafy vegetables","Khichdi, Fish, Fruit salad, Buttermilk"
+75,150,55,Female,Light exercise,Veg,Diabetes,"Oats, Banana and berries","Vegetable curry, Brown rice, Green leafy vegetables","Vegetable soup, Fruit salad"
+66,182,83,Male,Moderate exercise (3-5 days/wk),Veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables",Fruit salad
+59,5.6,53,Male,Moderate exercise (3-5 days/wk),Veg,Diabetes,Oats,Dal,Khichdi
+69,163,50,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,"Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Green leafy vegetables","Vegetable soup, Buttermilk"
+62,165,68.5,Male,Very active (6-7 days/wk),Veg,Diabetes,Yoghurt with fruits,"Brown rice, Green leafy vegetables",Vegetable soup
+51,186,78,Male,Light exercise,Veg,No diseases,Banana and berries,Green leafy vegetables,Buttermilk
+57,179,89,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,Egg,Green leafy vegetables,Fruit salad
+63,167,68,Male,Moderate exercise (3-5 days/wk),Veg,"Hypertension, Diabetes","Nuts, seeds and low-fat diary","Vegetable curry, Brown rice, Green leafy vegetables","Khichdi, Vegetable soup, Buttermilk"
+67,165,57,Male,Light exercise,Veg,Cardiovascular diseases,"Oats, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Green leafy vegetables","Khichdi, Fruit salad"
+57,173,110,Female,Light exercise,Veg,"Arthritis, Chronic Obstructive Pulmonary Disease (COPD)",Oats,"Vegetable curry, Green leafy vegetables",Vegetable soup
+58,155,50,Female,Light exercise,Veg,"Hypertension, Osteoporosis","Egg, Nuts, seeds and low-fat diary","Vegetable curry, Brown rice, Fish","Vegetable soup, Fruit salad"
+63,155,52,Female,Moderate exercise (3-5 days/wk),Veg,No diseases,Banana and berries,"Vegetable curry, Brown rice","Khichdi, Fruit salad"
+50,166,75,Female,Light exercise,Veg,No diseases,Yoghurt with fruits,"Dal, Vegetable curry, Green leafy vegetables",Khichdi
+50,169,89,Female,Moderate exercise (3-5 days/wk),Veg,Visual impairments,Banana and berries,Brown rice,Khichdi
+41,162,85,Male,Light exercise,Veg,No diseases,Banana and berries,"Vegetable curry, Brown rice",Fruit salad
+53,156,65,Female,Light exercise,Veg,Arthritis,Banana and berries,Brown rice,Khichdi
+83,150,58,Male,Little/No exercise,Veg,"Arthritis, Diabetes","Yoghurt with fruits, Banana and berries","Dal, Vegetable curry, Green leafy vegetables","Khichdi, Buttermilk"
+44,165,63,Female,Light exercise,Non-veg,Diabetes,"Oats, Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Khichdi, Vegetable soup, Fish, Fruit salad, Buttermilk"
+80,140,55,Female,Little/No exercise,Veg,Hypertension,"Oats, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Green leafy vegetables","Khichdi, Vegetable soup"
+39,166,68,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,"Nuts, seeds and low-fat diary",Green leafy vegetables,Khichdi
+46,169,69,Female,Moderate exercise (3-5 days/wk),Non-veg,Visual impairments,"Nuts, seeds and low-fat diary","Vegetable curry, Fish, Green leafy vegetables","Vegetable soup, Fish, Fruit salad"
+74,165,65,Male,Little/No exercise,Non-veg,Alzheimer's,"Nuts, seeds and low-fat diary",Fish,Vegetable soup
+73,152,70,Female,Little/No exercise,Veg,Hypertension,"Oats, Yoghurt with fruits","Dal, Vegetable curry, Green leafy vegetables","Khichdi, Vegetable soup, Fruit salad"
+70,156,57,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,"Nuts, seeds and low-fat diary, Banana and berries","Vegetable curry, Brown rice, Green leafy vegetables",Fruit salad
+71,168,77,Male,Little/No exercise,Veg,Hypertension,Oats,Vegetable curry,Khichdi
+56,174,70,Male,Very active (6-7 days/wk),Non-veg,No diseases,"Nuts, seeds and low-fat diary",Green leafy vegetables,Fruit salad
+74,160,65,Female,Moderate exercise (3-5 days/wk),Non-veg,Diabetes,"Yoghurt with fruits, Egg, Nuts, seeds and low-fat diary","Brown rice, Fish, Green leafy vegetables",Fruit salad
+70,160,59,Female,Light exercise,Veg,Hypertension,"Nuts, seeds and low-fat diary",Green leafy vegetables,Khichdi
+49,176,81,Male,Light exercise,Veg,"Hypertension, Diabetes",Banana and berries,"Vegetable curry, Brown rice",Vegetable soup
+38,172,89,Male,Light exercise,Veg,"Hypertension, Depression and anxiety disorders",Oats,"Vegetable curry, Green leafy vegetables","Khichdi, Buttermilk"
+33,5.4,69,Female,Extra active (very active & physical job),Veg,No diseases,"Nuts, seeds and low-fat diary",Green leafy vegetables,Buttermilk
+71,170,65,Male,Light exercise,Veg,No diseases,Egg,Fish,Vegetable soup
+69,160,57,Male,Moderate exercise (3-5 days/wk),Veg,Hypertension,"Nuts, seeds and low-fat diary",Brown rice,Vegetable soup
+61,63,62,Male,Little/No exercise,Veg,No diseases,Oats,Vegetable curry,Vegetable soup
+81,130,54,Female,Little/No exercise,Non-veg,"Arthritis, Diabetes, Visual impairments","Oats, Egg, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Khichdi, Vegetable soup, Fish"
+81,165,72,Male,Moderate exercise (3-5 days/wk),Veg,"Hypertension, Diabetes","Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Green leafy vegetables","Khichdi, Buttermilk"
+70,163,55,Female,Moderate exercise (3-5 days/wk),Veg,Diabetes,"Egg, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Buttermilk"
+65,160,75,Male,Very active (6-7 days/wk),Veg,Hypertension,"Nuts, seeds and low-fat diary","Vegetable curry, Green leafy vegetables","Fruit salad, Buttermilk"
+73,165,64,Male,Moderate exercise (3-5 days/wk),Veg,"Hypertension, Diabetes, Cardiovascular diseases, Visual impairments","Oats, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Green leafy vegetables",Buttermilk
+75,160,69,Female,Very active (6-7 days/wk),Veg,No diseases,Oats,Vegetable curry,Buttermilk
+54,153,60,Female,Moderate exercise (3-5 days/wk),Veg,Arthritis,Oats,Green leafy vegetables,Vegetable soup
+76,160,50,Male,Light exercise,Veg,"Hypertension, Diabetes","Oats, Yoghurt with fruits, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Green leafy vegetables","Khichdi, Buttermilk"
+85,175,85,Male,Little/No exercise,Veg,"Hypertension, Diabetes, Cardiovascular diseases","Oats, Nuts, seeds and low-fat diary","Vegetable curry, Brown rice, Green leafy vegetables","Vegetable soup, Buttermilk"
+48,165,90,Female,Light exercise,Veg,No diseases,"Nuts, seeds and low-fat diary",Brown rice,Khichdi
+88,152,50,Male,Very active (6-7 days/wk),Veg,Hypertension,Banana and berries,"Dal, Vegetable curry, Green leafy vegetables",Buttermilk
+64,157.5,62,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Arthritis","Oats, Egg","Vegetable curry, Fish, Green leafy vegetables","Khichdi, Fish"
+79,65,45,Female,Light exercise,Veg,Hypertension,"Oats, Banana and berries","Vegetable curry, Brown rice, Green leafy vegetables",Buttermilk
+43,176,75,Female,Light exercise,Non-veg,No diseases,Banana and berries,Brown rice,Fish
+79,165,62,Male,Little/No exercise,Veg,Cancer,"Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Green leafy vegetables","Fruit salad, Buttermilk"
+64,150,62,Female,Very active (6-7 days/wk),Veg,No diseases,Banana and berries,"Vegetable curry, Brown rice, Green leafy vegetables",Vegetable soup
+64,170,60,Male,Little/No exercise,Veg,Hypertension,"Nuts, seeds and low-fat diary, Banana and berries","Vegetable curry, Green leafy vegetables",Vegetable soup
+81,157.48,62,Female,Very active (6-7 days/wk),Veg,"Diabetes, Osteoporosis","Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice",Khichdi
+80,151,52,Female,Moderate exercise (3-5 days/wk),Non-veg,Hypertension,Banana and berries,"Dal, Vegetable curry, Brown rice, Green leafy vegetables",Fruit salad
+68,160,73,Female,Light exercise,Veg,Diabetes,Yoghurt with fruits,Green leafy vegetables,Vegetable soup
+80,160,60,Male,Light exercise,Veg,"Hypertension, Diabetes",Banana and berries,"Dal, Vegetable curry, Brown rice, Green leafy vegetables",Buttermilk
+75,159,55,Female,Very active (6-7 days/wk),Veg,Hypertension,Banana and berries,"Dal, Vegetable curry, Brown rice, Green leafy vegetables","Khichdi, Buttermilk"
+62,145,61,Female,Little/No exercise,Veg,Osteoporosis,"Nuts, seeds and low-fat diary",Vegetable curry,Buttermilk
+90,174,56.5,Male,Little/No exercise,Veg,Hypertension,"Egg, Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Green leafy vegetables",Vegetable soup
+85,158.75,74,Female,Little/No exercise,Veg,Cardiovascular diseases,"Nuts, seeds and low-fat diary","Dal, Vegetable curry, Brown rice, Green leafy vegetables",Vegetable soup
+58,178,65,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,Yoghurt with fruits,Brown rice,Vegetable soup
+59,165,83,Male,Very active (6-7 days/wk),Non-veg,No diseases,Yoghurt with fruits,Fish,Fish
+58,172,68,Male,Moderate exercise (3-5 days/wk),Non-veg,No diseases,Egg,Green leafy vegetables,Fish
+51,155,103,Female,Little/No exercise,Veg,"Hypertension, Diabetes","Oats, Nuts, seeds and low-fat diary, Banana and berries","Dal, Green leafy vegetables",Vegetable soup
+76,160,58,Female,Light exercise,Veg,"Hypertension, Diabetes",Oats,"Dal, Vegetable curry, Brown rice, Green leafy vegetables",Vegetable soup
+85,140,38,Female,Little/No exercise,Veg,No diseases,Banana and berries,Green leafy vegetables,Buttermilk
+81,165,56,Male,Light exercise,Non-veg,"Hypertension, Diabetes","Egg, Nuts, seeds and low-fat diary","Brown rice, Fish, Green leafy vegetables","Khichdi, Fish"
+50,164,70,Female,Light exercise,Veg,Diabetes,Oats,Brown rice,Vegetable soup
+81,166,56,Male,Light exercise,Non-veg,"Hypertension, Diabetes","Egg, Nuts, seeds and low-fat diary","Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Fish, Buttermilk"
+64,160,62,Female,Light exercise,Veg,"Diabetes, Visual impairments",Oats,"Dal, Vegetable curry, Brown rice, Green leafy vegetables","Khichdi, Vegetable soup, Buttermilk"
+72,164,52,Male,Very active (6-7 days/wk),Veg,Cardiovascular diseases,Oats,"Vegetable curry, Brown rice",Vegetable soup
+43,164,56,Female,Light exercise,Non-veg,Diabetes,"Oats, Yoghurt with fruits, Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Khichdi, Vegetable soup, Fish, Buttermilk"
+82,150,45,Female,Little/No exercise,Veg,Chronic Obstructive Pulmonary Disease (COPD),Oats,"Vegetable curry, Brown rice, Green leafy vegetables",Vegetable soup
+67,157,65,Female,Light exercise,Veg,"Hypertension, Diabetes","Nuts, seeds and low-fat diary",Green leafy vegetables,Vegetable soup
+48,165,75,Female,Very active (6-7 days/wk),Veg,No diseases,Egg,"Dal, Vegetable curry, Brown rice, Green leafy vegetables",Vegetable soup
+76,147,78,Female,Little/No exercise,Non-veg,"Hypertension, Diabetes, Cardiovascular diseases","Oats, Yoghurt with fruits, Egg, Nuts, seeds and low-fat diary, Banana and berries","Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables","Khichdi, Vegetable soup, Fish, Fruit salad"
+80,170,71,Male,Light exercise,Veg,Diabetes,"Nuts, seeds and low-fat diary",Dal,Fish
+20,178,54,Male,Light exercise,Non-veg,No diseases,"Egg, Nuts, seeds and low-fat diary, Banana and berries","Vegetable curry, Brown rice, Fish, Green leafy vegetables","Vegetable soup, Fruit salad"
+74,160,58,Female,Light exercise,Veg,Visual impairments,Banana and berries,Vegetable curry,Fruit salad
+59,153,70,Female,Light exercise,Non-veg,"Diabetes, Visual impairments",Oats,"Dal, Vegetable curry, Brown rice, Fish, Green leafy vegetables",Vegetable soup
+72,140,60,Male,Little/no exercise,Veg,"Hypertension, Arthritis, Cardiovascular diseases",Oats,"Dal, Vegetable curry",Khichdi
+48,165,65,Female,Light exercise,Non-veg,"Diabetes, Cancer, Cardiovascular diseases",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+55,150,70,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Arthritis",Egg,Green leafy vegetables,Fish
+68,180,80,Female,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Diabetes, Cancer","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+81,170,85,Male,Extra active (very active & physical job),Veg,"Hypertension, Depression and anxiety disorders, Visual Impairments",Banana and berries,Fish,Fruit salad
+75,145,55,Female,Little/no exercise,Veg,"Arthritis, Diabetes, Cardiovascular diseases",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+52,160,75,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Alzheimer's, Diabetes",Oats,"Brown rice, Fish",Vegetable soup
+67,175,90,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis, Osteoporosis",Egg,Green leafy vegetables,Fish
+84,185,95,Male,Very active (6-7 days/wk),Non-veg,"Visual Impairments, Alzheimer's, Cardiovascular diseases","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+90,180,100,Female,Extra active (very active & physical job),Veg,"Diabetes, Cardiovascular diseases, Hypertension",Banana and berries,Fish,Fruit salad
+77,155,65,Male,Little/no exercise,Veg,"Arthritis, Depression and anxiety disorders, Chronic Obstructive Pulmonary Disease (COPD)",Oats,"Dal, Vegetable curry",Khichdi
+59,170,70,Female,Light exercise,Non-veg,"Cardiovascular diseases, Arthritis, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+63,175,75,Male,Moderate exercise (3-5 days/wk),Veg,"Alzheimer's, Visual Impairments, Cancer",Egg,Green leafy vegetables,Fish
+69,180,80,Female,Very active (6-7 days/wk),Non-veg,"Depression and anxiety disorders, Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+80,190,105,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+78,160,60,Female,Little/no exercise,Veg,"Cancer, Arthritis, Visual Impairments",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+50,165,65,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Cardiovascular diseases, Hypertension",Oats,"Brown rice, Fish",Vegetable soup
+65,175,70,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Cancer",Egg,Green leafy vegetables,Fish
+70,180,75,Male,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Arthritis,","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+72,140,60,Male,Little/no exercise,Veg,"Hypertension, Arthritis, Cardiovascular diseases",Oats,"Dal, Vegetable curry",Khichdi
+48,165,65,Female,Light exercise,Non-veg,"Diabetes, Cancer, Cardiovascular diseases",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+55,150,70,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Arthritis",Egg,Green leafy vegetables,Fish
+68,180,80,Female,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Diabetes, Cancer","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+81,170,85,Male,Extra active (very active & physical job),Veg,"Hypertension, Depression and anxiety disorders, Visual Impairments",Banana and berries,Fish,Fruit salad
+75,145,55,Female,Little/no exercise,Veg,"Arthritis, Diabetes, Cardiovascular diseases",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+52,160,75,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Alzheimer's, Diabetes",Oats,"Brown rice, Fish",Vegetable soup
+67,175,90,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis, Osteoporosis",Egg,Green leafy vegetables,Fish
+84,185,95,Male,Very active (6-7 days/wk),Non-veg,"Visual Impairments, Alzheimer's, Cardiovascular diseases","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+90,180,100,Female,Extra active (very active & physical job),Veg,"Diabetes, Cardiovascular diseases, Hypertension",Banana and berries,Fish,Fruit salad
+77,155,65,Male,Little/no exercise,Veg,"Arthritis, Depression and anxiety disorders, Chronic Obstructive Pulmonary Disease (COPD)",Oats,"Dal, Vegetable curry",Khichdi
+59,170,70,Female,Light exercise,Non-veg,"Cardiovascular diseases, Arthritis, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+63,175,75,Male,Moderate exercise (3-5 days/wk),Veg,"Alzheimer's, Visual Impairments, Cancer",Egg,Green leafy vegetables,Fish
+69,180,80,Female,Very active (6-7 days/wk),Non-veg,"Depression and anxiety disorders, Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+80,190,105,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+78,160,60,Female,Little/no exercise,Veg,"Cancer, Arthritis, Visual Impairments",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+50,165,65,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Cardiovascular diseases, Hypertension",Oats,"Brown rice, Fish",Vegetable soup
+65,175,70,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Cancer",Egg,Green leafy vegetables,Fish
+70,180,75,Male,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Arthritis,","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+45,160,55,Male,Little/no exercise,Veg,"Hypertension, Arthritis, Cardiovascular diseases",Oats,"Dal, Vegetable curry",Khichdi
+52,175,60,Female,Light exercise,Non-veg,"Diabetes, Cancer, Cardiovascular diseases",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+57,170,65,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Arthritis",Egg,Green leafy vegetables,Fish
+63,180,70,Female,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Diabetes, Cancer","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+75,185,75,Male,Extra active (very active & physical job),Veg,"Hypertension, Depression and anxiety disorders, Visual Impairments",Banana and berries,Fish,Fruit salad
+77,165,65,Female,Little/no exercise,Veg,"Arthritis, Diabetes, Cardiovascular diseases",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+50,180,70,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Alzheimer's, Diabetes",Oats,"Brown rice, Fish",Vegetable soup
+67,185,75,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis, Osteoporosis",Egg,Green leafy vegetables,Fish
+81,190,80,Male,Very active (6-7 days/wk),Non-veg,"Visual Impairments, Alzheimer's, Cardiovascular diseases","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+90,195,85,Female,Extra active (very active & physical job),Veg,"Diabetes, Cardiovascular diseases, Hypertension",Banana and berries,Fish,Fruit salad
+80,170,60,Male,Little/no exercise,Veg,"Arthritis, Depression and anxiety disorders, Chronic Obstructive Pulmonary Disease (COPD)",Oats,"Dal, Vegetable curry",Khichdi
+55,155,65,Female,Light exercise,Non-veg,"Cardiovascular diseases, Arthritis, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+65,175,70,Male,Moderate exercise (3-5 days/wk),Veg,"Alzheimer's, Visual Impairments, Cancer",Egg,Green leafy vegetables,Fish
+70,180,75,Female,Very active (6-7 days/wk),Non-veg,"Depression and anxiety disorders, Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+84,185,100,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+72,160,55,Female,Little/no exercise,Veg,"Cancer, Arthritis, Visual Impairments",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+58,170,60,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Cardiovascular diseases, Hypertension",Oats,"Brown rice, Fish",Vegetable soup
+66,175,65,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Cancer",Egg,Green leafy vegetables,Fish
+59,180,70,Male,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Arthritis,","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+62,185,75,Female,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+78,150,55,Male,Little/no exercise,Veg,"Arthritis, Depression and anxiety disorders, Chronic Obstructive Pulmonary Disease (COPD)",Oats,"Dal, Vegetable curry",Khichdi
+54,165,60,Female,Light exercise,Non-veg,"Cardiovascular diseases, Arthritis, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+68,175,65,Male,Moderate exercise (3-5 days/wk),Veg,"Alzheimer's, Visual Impairments, Cancer",Egg,Green leafy vegetables,Fish
+69,180,70,Female,Very active (6-7 days/wk),Non-veg,"Depression and anxiety disorders, Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+85,190,100,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+74,155,55,Female,Little/no exercise,Veg,"Cancer, Arthritis, Visual Impairments",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+53,170,60,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Cardiovascular diseases, Hypertension",Oats,"Brown rice, Fish",Vegetable soup
+61,175,65,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Cancer",Egg,Green leafy vegetables,Fish
+76,180,70,Male,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Arthritis,","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+92,195,85,Female,Extra active (very active & physical job),Veg,"Diabetes, Cardiovascular diseases, Hypertension",Banana and berries,Fish,Fruit salad
+82,165,55,Male,Little/no exercise,Veg,"Arthritis, Depression and anxiety disorders, Chronic Obstructive Pulmonary Disease (COPD)",Oats,"Dal, Vegetable curry",Khichdi
+52,155,65,Female,Light exercise,Non-veg,"Cardiovascular diseases, Arthritis, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+63,175,70,Male,Moderate exercise (3-5 days/wk),Veg,"Alzheimer's, Visual Impairments, Cancer",Egg,Green leafy vegetables,Fish
+70,180,75,Female,Very active (6-7 days/wk),Non-veg,"Depression and anxiety disorders, Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+86,185,100,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+75,160,55,Female,Little/no exercise,Veg,"Cancer, Arthritis, Visual Impairments",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+51,165,60,Male,Light exercise,Non-veg,"Chronic Obstructive Pulmonary Disease (COPD), Cardiovascular diseases, Hypertension",Oats,"Brown rice, Fish",Vegetable soup
+69,175,65,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Cancer",Egg,Green leafy vegetables,Fish
+64,180,70,Male,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Arthritis,","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+71,185,75,Female,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+87,190,100,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+74,155,55,Female,Little/no exercise,Veg,"Cancer, Arthritis, Visual Impairments",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+54,165,60,Male,Light exercise,Non-veg,"Cardiovascular diseases, Arthritis, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+68,175,65,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Cancer",Egg,Green leafy vegetables,Fish
+69,180,70,Male,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Arthritis,","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+85,195,85,Female,Extra active (very active & physical job),Veg,"Diabetes, Cardiovascular diseases, Hypertension",Banana and berries,Fish,Fruit salad
+86,200,90,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+74,165,55,Female,Little/no exercise,Veg,"Cancer, Arthritis, Visual Impairments",Yoghurt with fruits,"Dal, Vegetable curry",Khichdi
+54,155,65,Male,Light exercise,Non-veg,"Cardiovascular diseases, Arthritis, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Vegetable soup
+68,175,65,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's, Cancer",Egg,Green leafy vegetables,Fish
+69,180,70,Male,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Arthritis,","Nuts, seeds and low-fat dairy",Banana and berries,Buttermilk
+85,195,85,Female,Extra active (very active & physical job),Veg,"Diabetes, Cardiovascular diseases, Hypertension",Banana and berries,Fish,Fruit salad
+86,200,90,Male,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Alzheimer's",Banana and berries,Fish,Fruit salad
+42,150,45,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+55,160,50,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+60,165,55,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+72,170,60,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+82,180,70,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+48,155,45,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+59,165,50,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+67,170,60,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+71,175,65,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+80,185,75,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+42,150,45,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+55,160,50,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+60,165,55,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+72,170,60,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+82,180,70,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+48,155,45,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+59,165,50,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+67,170,60,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+71,175,65,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+80,185,75,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+42,150,45,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+55,160,50,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+60,165,55,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+72,170,60,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+82,180,70,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+48,155,45,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+59,165,50,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+67,170,60,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+71,175,65,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+80,185,75,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+42,150,45,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+55,160,50,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+60,165,55,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+72,170,60,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+82,180,70,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+48,155,45,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+59,165,50,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+67,170,60,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+71,175,65,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+80,185,75,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+44,152,47,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+57,162,52,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+62,167,57,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+74,172,62,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+84,182,72,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+46,157,48,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+57,167,52,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+69,172,62,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+73,177,67,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+82,187,77,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+44,152,47,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+57,162,52,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+62,167,57,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+74,172,62,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+84,182,72,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+46,157,48,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+57,167,52,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+69,172,62,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+73,177,67,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+82,187,77,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+44,152,47,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+57,162,52,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+62,167,57,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+74,172,62,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+84,182,72,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+46,157,48,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+57,167,52,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+69,172,62,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+73,177,67,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+82,187,77,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+44,152,47,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+57,162,52,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+62,167,57,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+74,172,62,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+84,182,72,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+46,157,48,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+57,167,52,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+69,172,62,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+73,177,67,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+82,187,77,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+44,152,47,Female,Light exercise,Veg,"Cardiovascular diseases, Arthritis, Diabetes",Egg,Vegetable curry,Fish
+57,162,52,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Arthritis, Alzheimer's",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+62,167,57,Female,Moderate exercise (3-5 days/wk),Non-veg,"Osteoporosis, Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy",Vegetable soup,Fish
+74,172,62,Male,Very active (6-7 days/wk),Veg,"Cancer, Visual Impairments, Alzheimer's",Banana and berries,Vegetable curry,Fruit salad
+84,182,72,Female,Extra active (very active & physical job),Non-veg,"Diabetes, Hypertension, Cardiovascular diseases",Oats,"Fish, Green leafy vegetables",Khichdi
+46,157,48,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Arthritis, Alzheimer's",Banana and berries,"Dal, Vegetable curry",Buttermilk
+57,167,52,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cancer, Arthritis",Egg,"Brown rice, Fish",Vegetable soup
+69,172,62,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Arthritis, Hypertension",Yoghurt with fruits,"Dal, Vegetable curry",Fish
+73,177,67,Male,Extra active (very active & physical job),Veg,"Diabetes, Osteoporosis, Alzheimer's","Nuts, seeds and low-fat dairy",Vegetable soup,Buttermilk
+82,187,77,Female,Extra active (very active & physical job),Non-veg,"Cancer, Cardiovascular diseases, Diabetes",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+44,145,42,Female,Light exercise,Veg,"Diabetes, Cardiovascular diseases, Hypertension",Banana and berries,"Vegetable curry, Dal",Buttermilk
+50,150,45,Male,Little/no exercise,Non-veg,"Arthritis, Depression and anxiety disorders, Alzheimer's",Egg,"Brown rice, Fish",Vegetable soup
+63,155,49,Female,Moderate exercise (3-5 days/wk),Veg,"Cardiovascular diseases, Cancer, Osteoporosis",Oats,Vegetable curry,Khichdi
+71,160,53,Male,Light exercise,Non-veg,"Alzheimer's, Cardiovascular diseases, Diabetes",Banana and berries,"Dal, Fish",Buttermilk
+76,165,55,Female,Extra active (very active & physical job),Veg,"Depression and anxiety disorders, Cardiovascular diseases, Diabetes",Egg,Vegetable curry,Fruit salad
+48,148,43,Male,Light exercise,Non-veg,"Diabetes, Hypertension, Arthritis",Yoghurt with fruits,"Dal, Brown rice",Khichdi
+55,152,47,Female,Moderate exercise (3-5 days/wk),Veg,"Cardiovascular diseases, Cancer, Depression and anxiety disorders",Egg,Vegetable curry,Buttermilk
+67,157,50,Male,Very active (6-7 days/wk),Non-veg,"Diabetes, Hypertension, Arthritis","Nuts, seeds and low-fat dairy","Dal, Fish",Fruit salad
+72,162,54,Female,Little/no exercise,Veg,"Cancer, Depression and anxiety disorders, Hypertension",Banana and berries,"Vegetable curry, Dal",Khichdi
+79,167,56,Male,Extra active (very active & physical job),Non-veg,"Alzheimer's, Cancer, Cardiovascular diseases",Egg,"Vegetable curry, Dal",Buttermilk
+43,143,41,Female,Little/no exercise,Veg,"Hypertension, Arthritis, Alzheimer's",Oats,"Vegetable curry, Dal",Khichdi
+52,153,46,Male,Light exercise,Non-veg,"Cardiovascular diseases, Diabetes, Hypertension",Yoghurt with fruits,"Brown rice, Fish",Fruit salad
+65,158,51,Female,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Osteoporosis, Cardiovascular diseases",Egg,"Dal, Brown rice",Vegetable soup
+75,163,55,Male,Very active (6-7 days/wk),Non-veg,"Diabetes, Arthritis, Depression and anxiety disorders",Banana and berries,"Vegetable curry, Dal",Buttermilk
+81,168,58,Female,Extra active (very active & physical job),Veg,"Hypertension, Diabetes, Cardiovascular diseases",Oats,"Brown rice, Fish",Fruit salad
+49,147,44,Male,Little/no exercise,Non-veg,"Diabetes, Cardiovascular diseases, Arthritis",Egg,"Vegetable curry, Dal",Buttermilk
+58,156,48,Female,Moderate exercise (3-5 days/wk),Veg,"Cancer, Cardiovascular diseases, Alzheimer's",Banana and berries,"Dal, Fish",Vegetable soup
+68,161,52,Male,Very active (6-7 days/wk),Non-veg,"Depression and anxiety disorders, Diabetes, Cardiovascular diseases",Yoghurt with fruits,"Vegetable curry, Dal",Khichdi
+77,166,57,Female,Extra active (very active & physical job),Veg,"Cardiovascular diseases, Arthritis, Depression and anxiety disorders",Oats,"Brown rice, Fish",Buttermilk
+85,170,59,Male,Little/no exercise,Non-veg,"Diabetes, Cardiovascular diseases, Arthritis",Banana and berries,"Vegetable curry, Dal",Vegetable soup
+45,146,42,Female,Light exercise,Veg,"Cardiovascular diseases, Diabetes, Hypertension",Egg,"Brown rice, Fish",Khichdi
+53,151,47,Male,Light exercise,Non-veg,"Alzheimer's, Depression and anxiety disorders, Cardiovascular diseases",Banana and berries,"Vegetable curry, Dal",Buttermilk
+64,155,49,Female,Moderate exercise (3-5 days/wk),Veg,"Cardiovascular diseases, Diabetes, Arthritis",Yoghurt with fruits,"Vegetable curry, Dal",Vegetable soup
+73,161,54,Male,Light exercise,Non-veg,"Arthritis, Cardiovascular diseases, Depression and anxiety disorders",Egg,"Brown rice, Fish",Khichdi
+78,167,56,Female,Extra active (very active & physical job),Veg,"Diabetes, Cardiovascular diseases, Cancer",Banana and berries,"Vegetable curry, Dal",Buttermilk
+47,148,43,Male,Light exercise,Non-veg,"Cardiovascular diseases, Diabetes, Depression and anxiety disorders",Oats,"Vegetable curry, Dal",Vegetable soup
+57,154,47,Female,Moderate exercise (3-5 days/wk),Veg,"Alzheimer's, Depression and anxiety disorders, Diabetes",Egg,"Brown rice, Fish",Buttermilk
+66,160,51,Male,Little/no exercise,Non-veg,"Cardiovascular diseases, Hypertension, Depression and anxiety disorders",Yoghurt with fruits,"Vegetable curry, Dal",Khichdi
+74,162,54,Female,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Cardiovascular diseases, Hypertension",Egg,"Vegetable curry, Dal",Vegetable soup
+80,168,58,Male,Extra active (very active & physical job),Non-veg,"Cardiovascular diseases, Diabetes, Alzheimer's",Banana and berries,"Brown rice, Fish",Buttermilk
+51,150,45,Female,Light exercise,Veg,"Arthritis, Cardiovascular diseases, Diabetes",Oats,"Vegetable curry, Dal",Khichdi
+59,155,48,Male,Moderate exercise (3-5 days/wk),Non-veg,"Depression and anxiety disorders, Diabetes, Cardiovascular diseases",Yoghurt with fruits,"Brown rice, Fish",Buttermilk
+69,162,52,Female,Very active (6-7 days/wk),Veg,"Diabetes, Cardiovascular diseases, Hypertension",Egg,"Vegetable curry, Dal",Vegetable soup
+82,169,59,Male,Little/no exercise,Non-veg,"Cardiovascular diseases, Diabetes, Alzheimer's",Oats,"Brown rice, Fish",Khichdi
+46,147,44,Female,Light exercise,Veg,"Cardiovascular diseases, Depression and anxiety disorders, Arthritis",Egg,"Vegetable curry, Dal",Vegetable soup
+54,152,46,Male,Light exercise,Non-veg,"Cardiovascular diseases, Hypertension, Diabetes",Yoghurt with fruits,"Vegetable curry, Dal",Buttermilk
+62,158,50,Female,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Cardiovascular diseases, Arthritis",Banana and berries,"Brown rice, Fish",Fruit salad
+70,163,53,Male,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Diabetes, Cardiovascular diseases","Nuts, seeds and low-fat dairy","Vegetable curry, Dal",Vegetable soup
+35,168,70,Male,Little/no exercise,Veg,"Hypertension, Arthritis",Oats,Dal,Khichdi
+42,173,78,Female,Light exercise,Non-veg,"Cardiovascular diseases, Alzheimer's",Yoghurt with fruits,Vegetable curry,Vegetable soup
+39,170,75,Male,Moderate exercise (3-5 days/wk),Veg,"Diabetes, Osteoporosis",Egg,Brown rice,Fish
+47,175,80,Female,Moderate exercise (3-5 days/wk),Non-veg,"Arthritis, Depression and anxiety disorders","Nuts, seeds and low-fat dairy",Fish,Fruit salad
+36,169,72,Male,Little/no exercise,Veg,No diseases,Banana and berries,Green leafy vegetables,Buttermilk
+45,172,77,Female,Very active (6-7 days/wk),Non-veg,"Hypertension, Cardiovascular diseases",Oats,Fish,Vegetable soup
+40,171,76,Male,Light exercise,Veg,"Alzheimer's, Chronic Obstructive Pulmonary Disease",Yoghurt with fruits,Green leafy vegetables,Khichdi
+49,176,82,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Visual impairments",Banana and berries,Brown rice,Fruit salad
+38,168,73,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,Egg,Fish,Buttermilk
+51,174,79,Female,Little/no exercise,Non-veg,"Osteoporosis, Arthritis","Nuts, seeds and low-fat dairy",Vegetable curry,Vegetable soup
+37,170,74,Male,Moderate exercise (3-5 days/wk),Veg,"Cardiovascular diseases, Alzheimer's",Banana and berries,Brown rice,Fish
+52,173,80,Female,Light exercise,Non-veg,"Depression and anxiety disorders, Visual impairments",Egg,Fish,Fruit salad
+39,169,75,Male,Little/no exercise,Veg,"Hypertension, Diabetes",Banana and berries,Green leafy vegetables,Buttermilk
+53,175,82,Female,Moderate exercise (3-5 days/wk),Non-veg,No diseases,"Nuts, seeds and low-fat dairy",Brown rice,Vegetable soup
+41,171,77,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Alzheimer's",Egg,Vegetable curry,Khichdi
+54,174,81,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Depression and anxiety disorders",Banana and berries,Brown rice,Vegetable soup
+42,172,78,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,Yoghurt with fruits,Fish,Buttermilk
+55,177,83,Female,Little/no exercise,Non-veg,"Visual impairments, Hypertension",Egg,Brown rice,Fruit salad
+43,173,79,Male,Light exercise,Veg,"Arthritis, Alzheimer's",Banana and berries,Vegetable curry,Khichdi
+56,176,84,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Osteoporosis",Oats,Brown rice,Vegetable soup
+44,174,80,Male,Moderate exercise (3-5 days/wk),Veg,"Cardiovascular diseases, Depression and anxiety disorders","Nuts, seeds and low-fat dairy",Dal,Buttermilk
+57,178,85,Female,Little/no exercise,Non-veg,No diseases,Banana and berries,Vegetable curry,Vegetable soup
+45,175,81,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Alzheimer's",Yoghurt with fruits,Fish,Khichdi
+58,179,86,Female,Light exercise,Non-veg,"Visual impairments, Hypertension",Egg,Brown rice,Vegetable soup
+35,168,70,Male,Little/no exercise,Veg,"Hypertension, Arthritis","Oats, Yoghurt with fruits","Dal, Vegetable curry, Fish","Khichdi, Vegetable soup"
+42,173,78,Female,Light exercise,Non-veg,"Cardiovascular diseases, Alzheimer's",Egg,"Brown rice, Vegetable curry, Fish","Vegetable soup, Fruit salad"
+39,170,75,Male,Moderate exercise (3-5 days/wk),Veg,"Diabetes, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Fish, Green leafy vegetables","Fish, Buttermilk"
+47,175,80,Female,Moderate exercise (3-5 days/wk),Non-veg,"Arthritis, Depression and anxiety disorders","Banana and berries, Egg","Vegetable curry, Fish","Fruit salad, Vegetable soup"
+36,169,72,Male,Little/no exercise,Veg,No diseases,"Oats, Banana and berries","Brown rice, Green leafy vegetables","Khichdi, Buttermilk"
+45,172,77,Female,Very active (6-7 days/wk),Non-veg,"Hypertension, Cardiovascular diseases","Yoghurt with fruits, Nuts, seeds and low-fat dairy","Fish, Green leafy vegetables","Vegetable soup, Fruit salad"
+40,171,76,Male,Light exercise,Veg,"Alzheimer's, Chronic Obstructive Pulmonary Disease","Egg, Yoghurt with fruits","Vegetable curry, Green leafy vegetables","Khichdi, Buttermilk"
+49,176,82,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Visual impairments","Nuts, seeds and low-fat dairy, Banana and berries","Brown rice, Fish","Fruit salad, Vegetable soup"
+38,168,73,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,"Egg, Banana and berries","Fish, Green leafy vegetables","Buttermilk, Khichdi"
+51,174,79,Female,Little/no exercise,Non-veg,"Osteoporosis, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Brown rice","Vegetable soup, Fruit salad"
+37,170,74,Male,Moderate exercise (3-5 days/wk),Veg,"Cardiovascular diseases, Alzheimer's","Banana and berries, Egg","Brown rice, Fish","Khichdi, Vegetable soup"
+52,173,80,Female,Light exercise,Non-veg,"Depression and anxiety disorders, Visual impairments","Egg, Nuts, seeds and low-fat dairy","Fish, Brown rice","Fruit salad, Vegetable soup"
+39,169,75,Male,Little/no exercise,Veg,"Hypertension, Diabetes","Banana and berries, Oats","Green leafy vegetables, Fish","Buttermilk, Vegetable soup"
+53,175,82,Female,Moderate exercise (3-5 days/wk),Non-veg,No diseases,"Nuts, seeds and low-fat dairy, Banana and berries","Brown rice, Vegetable soup","Vegetable soup, Fruit salad"
+41,171,77,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Alzheimer's","Egg, Banana and berries","Vegetable curry, Brown rice","Khichdi, Vegetable soup"
+54,174,81,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Depression and anxiety disorders","Banana and berries, Egg","Brown rice, Fish","Vegetable soup, Fruit salad"
+42,172,78,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,"Yoghurt with fruits, Egg","Fish, Brown rice","Buttermilk, Vegetable soup"
+55,177,83,Female,Little/no exercise,Non-veg,"Visual impairments, Hypertension","Egg, Banana and berries","Brown rice, Vegetable curry","Fruit salad, Vegetable soup"
+43,173,79,Male,Light exercise,Veg,"Arthritis, Alzheimer's","Banana and berries, Egg","Khichdi, Vegetable curry, Brown rice","Buttermilk, Vegetable soup"
+56,176,84,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Osteoporosis","Egg, Fish","Vegetable curry, Brown rice","Vegetable soup, Fruit salad"
+44,174,80,Male,Very active (6-7 days/wk),Veg,"Cardiovascular diseases, Alzheimer's","Nuts, seeds and low-fat dairy, Banana and berries","Fish, Green leafy vegetables","Khichdi, Buttermilk"
+57,178,85,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Arthritis","Egg, Nuts, seeds and low-fat dairy","Fish, Brown rice","Vegetable soup, Fruit salad"
+45,175,81,Male,Light exercise,Veg,No diseases,"Yoghurt with fruits, Egg","Vegetable curry, Brown rice","Khichdi, Buttermilk"
+58,179,86,Female,Light exercise,Non-veg,"Visual impairments, Hypertension","Egg, Banana and berries","Brown rice, Vegetable soup","Khichdi, Vegetable soup"
+46,176,82,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Diabetes","Oats, Egg, Yoghurt with fruits","Dal, Green leafy vegetables, Brown rice","Vegetable soup, Khichdi"
+59,180,87,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Nuts, seeds and low-fat dairy, Banana and berries","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+47,177,83,Male,Light exercise,Veg,No diseases,"Oats, Egg","Green leafy vegetables, Fish","Vegetable soup, Khichdi"
+60,181,88,Female,Little/no exercise,Non-veg,"Visual impairments, Hypertension","Egg, Nuts, seeds and low-fat dairy","Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+48,178,84,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's","Oats, Yoghurt with fruits","Dal, Fish, Brown rice","Vegetable soup, Fruit salad"
+61,182,89,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+49,179,85,Male,Moderate exercise (3-5 days/wk),Veg,"Osteoporosis, Hypertension","Egg, Banana and berries","Green leafy vegetables, Fish","Vegetable soup, Khichdi"
+62,183,90,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Diabetes","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Vegetable soup, Fruit salad"
+50,180,86,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,"Oats, Egg, Banana and berries","Dal, Brown rice, Fish","Vegetable soup, Buttermilk"
+63,184,91,Female,Moderate exercise (3-5 days/wk),Non-veg,"Visual impairments, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+51,181,87,Male,Light exercise,Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Yoghurt with fruits","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+64,185,92,Female,Very active (6-7 days/wk),Non-veg,"Hypertension, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Fruit salad, Buttermilk"
+52,182,88,Male,Moderate exercise (3-5 days/wk),Veg,"Alzheimer's, Cardiovascular diseases","Oats, Egg","Green leafy vegetables, Fish","Khichdi, Vegetable soup"
+65,186,93,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Fish, Vegetable curry, Brown rice","Buttermilk, Vegetable soup"
+53,183,89,Male,Little/no exercise,Veg,No diseases,"Oats, Yoghurt with fruits","Dal, Green leafy vegetables, Brown rice","Vegetable soup, Khichdi"
+66,187,94,Female,Light exercise,Non-veg,"Visual impairments, Hypertension","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Fruit salad, Buttermilk"
+54,184,90,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Alzheimer's","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Khichdi, Vegetable soup"
+67,188,95,Female,Moderate exercise (3-5 days/wk),Non-veg,"Cardiovascular diseases, Diabetes","Egg, Nuts, seeds and low-fat dairy","Vegetable curry, Fish, Brown rice","Vegetable soup, Buttermilk"
+55,185,91,Male,Moderate exercise (3-5 days/wk),Veg,"Osteoporosis, Hypertension","Oats, Egg, Banana and berries","Green leafy vegetables, Fish","Khichdi, Vegetable soup"
+68,189,96,Female,Light exercise,Non-veg,"Visual impairments, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Vegetable soup"
+56,186,92,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+69,190,97,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Cardiovascular diseases","Nuts, seeds and low-fat dairy, Banana and berries","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+57,187,93,Male,Light exercise,Veg,No diseases,"Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Khichdi, Vegetable soup"
+70,191,98,Female,Light exercise,Non-veg,"Visual impairments, Hypertension","Egg, Nuts, seeds and low-fat dairy","Vegetable curry, Fish, Brown rice","Vegetable soup, Buttermilk"
+58,188,94,Male,Little/no exercise,Veg,"Alzheimer's, Osteoporosis","Oats, Yoghurt with fruits","Green leafy vegetables, Fish","Khichdi, Vegetable soup"
+71,192,99,Female,Very active (6-7 days/wk),Non-veg,"Arthritis, Cardiovascular diseases","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+59,189,95,Male,Light exercise,Veg,"Depression and anxiety disorders, Hypertension","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+72,193,100,Female,Moderate exercise (3-5 days/wk),Non-veg,"Diabetes, Arthritis","Egg, Nuts, seeds and low-fat dairy","Vegetable curry, Fish, Brown rice","Buttermilk, Vegetable soup"
+53,147,32,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Diabetes","Oats, Egg","Dal, Vegetable curry, Brown rice","Vegetable soup, Fruit salad"
+67,174,68,Male,Little/no exercise,Veg,"Arthritis, Osteoporosis","Oats, Yoghurt with fruits","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+58,161,47,Female,Light exercise,Non-veg,"Cardiovascular diseases, Diabetes","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+76,180,93,Male,Moderate exercise (3-5 days/wk),Veg,"Visual impairments, Hypertension","Oats, Egg","Green leafy vegetables, Fish","Vegetable soup, Khichdi"
+64,168,72,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Depression and anxiety disorders","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+51,150,39,Male,Light exercise,Veg,No diseases,"Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+70,177,85,Female,Moderate exercise (3-5 days/wk),Non-veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+54,152,42,Male,Little/no exercise,Veg,"Arthritis, Diabetes","Oats, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+88,187,110,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+65,170,75,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+59,164,50,Female,Light exercise,Non-veg,"Hypertension, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+81,183,102,Male,Little/no exercise,Veg,"Osteoporosis, Hypertension","Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+69,175,80,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+56,157,45,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Diabetes","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+73,179,88,Female,Light exercise,Non-veg,"Hypertension, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+52,153,36,Male,Moderate exercise (3-5 days/wk),Veg,No diseases,"Oats, Egg","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+80,181,98,Female,Very active (6-7 days/wk),Non-veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+63,172,70,Male,Light exercise,Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+57,159,48,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Cardiovascular diseases","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+79,180,95,Male,Very active (6-7 days/wk),Veg,"Alzheimer's, Depression and anxiety disorders","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+68,173,78,Female,Light exercise,Non-veg,"Osteoporosis, Diabetes","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+55,155,43,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Hypertension","Oats, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+82,184,100,Female,Little/no exercise,Non-veg,"Cardiovascular diseases, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+61,166,65,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+71,176,83,Female,Moderate exercise (3-5 days/wk),Non-veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+60,165,62,Male,Light exercise,Veg,No diseases,"Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+83,185,105,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+62,167,67,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+75,178,90,Female,Little/no exercise,Non-veg,"Hypertension, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+53,148,35,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Diabetes","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+77,181,96,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+66,171,77,Male,Light exercise,Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+58,162,53,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+82,182,101,Male,Little/no exercise,Veg,"Osteoporosis, Hypertension","Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+72,177,82,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+55,156,44,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Hypertension","Oats, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+80,183,99,Female,Light exercise,Non-veg,"Cardiovascular diseases, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+67,174,79,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+61,165,63,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Cardiovascular diseases","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+79,180,94,Male,Little/no exercise,Veg,"Alzheimer's, Depression and anxiety disorders","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+65,172,74,Female,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Diabetes","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+57,160,49,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Diabetes","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+76,178,91,Female,Light exercise,Non-veg,"Hypertension, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+54,151,37,Male,Very active (6-7 days/wk),Veg,No diseases,"Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+78,179,97,Female,Moderate exercise (3-5 days/wk),Non-veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+66,173,76,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+58,161,51,Female,Light exercise,Non-veg,"Hypertension, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+81,184,103,Male,Little/no exercise,Veg,"Osteoporosis, Hypertension","Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+73,177,84,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+60,166,64,Male,Light exercise,Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+85,187,108,Female,Moderate exercise (3-5 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+62,167,68,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+77,180,92,Female,Very active (6-7 days/wk),Non-veg,"Hypertension, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+55,155,45,Male,Light exercise,Veg,"Arthritis, Hypertension","Oats, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+79,181,98,Female,Moderate exercise (3-5 days/wk),Non-veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+67,174,80,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+58,162,53,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+82,182,101,Male,Little/no exercise,Veg,"Osteoporosis, Hypertension","Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+72,177,82,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+55,156,44,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Hypertension","Oats, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+80,183,99,Female,Light exercise,Non-veg,"Cardiovascular diseases, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+67,174,79,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+61,165,63,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Cardiovascular diseases","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+79,180,94,Male,Little/no exercise,Veg,"Alzheimer's, Depression and anxiety disorders","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+65,172,74,Female,Very active (6-7 days/wk),Non-veg,"Osteoporosis, Diabetes","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+57,160,49,Male,Moderate exercise (3-5 days/wk),Veg,"Arthritis, Diabetes","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+76,178,91,Female,Light exercise,Non-veg,"Hypertension, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+54,151,37,Male,Very active (6-7 days/wk),Veg,No diseases,"Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+78,179,97,Female,Moderate exercise (3-5 days/wk),Non-veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+66,173,76,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+58,161,51,Female,Light exercise,Non-veg,"Hypertension, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+82,182,101,Male,Little/no exercise,Veg,"Osteoporosis, Hypertension","Oats, Yoghurt with fruits","Dal, Brown rice, Fish","Vegetable soup, Khichdi"
+72,177,82,Female,Very active (6-7 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+60,166,64,Male,Light exercise,Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+85,187,108,Female,Moderate exercise (3-5 days/wk),Non-veg,"Alzheimer's, Cardiovascular diseases","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+62,167,68,Male,Moderate exercise (3-5 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Egg, Banana and berries","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+77,180,92,Female,Very active (6-7 days/wk),Non-veg,"Hypertension, Alzheimer's","Egg, Nuts, seeds and low-fat dairy","Fish, Vegetable curry, Brown rice","Buttermilk, Fruit salad"
+55,155,45,Male,Light exercise,Veg,"Arthritis, Hypertension","Oats, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+79,181,98,Female,Moderate exercise (3-5 days/wk),Non-veg,"Cardiovascular diseases, Osteoporosis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
+67,174,80,Male,Very active (6-7 days/wk),Veg,"Depression and anxiety disorders, Arthritis","Oats, Yoghurt with fruits, Egg","Dal, Fish, Brown rice","Vegetable soup, Khichdi"
+58,162,53,Female,Moderate exercise (3-5 days/wk),Non-veg,"Hypertension, Arthritis","Nuts, seeds and low-fat dairy, Banana and berries","Vegetable curry, Fish, Brown rice","Buttermilk, Fruit salad"
