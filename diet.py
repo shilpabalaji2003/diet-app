@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 from catboost import CatBoostClassifier
-import numpy as np
 import time
+import joblib
 
 st.set_page_config(page_title="Diet Recommendation", page_icon="💪", layout="wide")
 
@@ -61,55 +61,59 @@ class Person:
         maintain_calories = self.calculate_bmr()*weight
         return maintain_calories
 
-    def generate_recommendation(self):
-        # Load dataset
-        df = pd.read_csv('main.csv')
+class RecommendationGenerator:
+    def __init__(self):
+        self.load_models()
 
-        X = df[['Age', 'Height (in cm)', 'Weight (in kg)', 'Gender', 'Activity level', 'Nutritional preference', 'Disease']]
-        y_breakfast = df['Breakfast']
-        y_lunch = df['Lunch']
-        y_dinner = df['Dinner']
+    def load_models(self):
+        # Load or train models if not already loaded
+        self.clf_breakfast = self.load_model('clf_breakfast.joblib')
+        self.clf_lunch = self.load_model('clf_lunch.joblib')
+        self.clf_dinner = self.load_model('clf_dinner.joblib')
 
-        clf_breakfast = CatBoostClassifier(iterations=100, cat_features=['Gender', 'Activity level', 'Nutritional preference', 'Disease'])
-        clf_lunch = CatBoostClassifier(iterations=100, cat_features=['Gender', 'Activity level', 'Nutritional preference', 'Disease'])
-        clf_dinner = CatBoostClassifier(iterations=100, cat_features=['Gender', 'Activity level', 'Nutritional preference', 'Disease'])
+    def load_model(self, filename):
+        try:
+            return joblib.load(filename)
+        except FileNotFoundError:
+            # Train the model if the file is not found
+            df = pd.read_csv("C:/Users/Shilpa/OneDrive - GEMS Education/Desktop/Mini project/Mini project source code/Streamlit Frontend/pages/main1_modified.csv")
+            X = df[['Age', 'Height (in cm)', 'Weight (in kg)', 'Gender', 'Activity level', 'Nutritional preference', 'Disease']]
+            y_breakfast = df['Breakfast']
+            y_lunch = df['Lunch']
+            y_dinner = df['Dinner']
 
-        clf_breakfast.fit(X, y_breakfast)
-        clf_lunch.fit(X, y_lunch)
-        clf_dinner.fit(X, y_dinner)
+            clf = CatBoostClassifier(iterations=100, cat_features=['Gender', 'Activity level', 'Nutritional preference', 'Disease'])
+            if filename == 'clf_breakfast.joblib':
+                clf.fit(X, y_breakfast)
+            elif filename == 'clf_lunch.joblib':
+                clf.fit(X, y_lunch)
+            elif filename == 'clf_dinner.joblib':
+                clf.fit(X, y_dinner)
 
-        diseases_str = ', '.join(self.disease)
+            joblib.dump(clf, filename)
+            return clf
+
+    def generate_recommendation(self, age, height, weight, gender, activity_level, nutritional_preference, disease):
+        diseases_str = ', '.join(disease)
 
         user_input = pd.DataFrame({
-        'Age': self.age,
-        'Height (in cm)': self.height,
-        'Weight (in kg)': self.weight,
-        'Gender': self.gender,
-        'Activity level': self.activity_level,
-        'Nutritional preference': self.nutritional_preference,
-        'Disease': diseases_str
+            'Age': age,
+            'Height (in cm)': height,
+            'Weight (in kg)': weight,
+            'Gender': gender,
+            'Activity level': activity_level,
+            'Nutritional preference': nutritional_preference,
+            'Disease': diseases_str
         }, index=[0])
 
-
-        prediction_breakfast = clf_breakfast.predict(user_input)[0]
-        prediction_lunch = clf_lunch.predict(user_input)[0]
-        prediction_dinner = clf_dinner.predict(user_input)[0]
+        prediction_breakfast = self.clf_breakfast.predict(user_input)[0]
+        prediction_lunch = self.clf_lunch.predict(user_input)[0]
+        prediction_dinner = self.clf_dinner.predict(user_input)[0]
         
-        if self.nutritional_preference == 'Veg':
-            replacements = {
-                'Breakfast': {'Egg': 'Oats'},
-                'Lunch': {'Fish': 'Vegetable curry'},
-                'Dinner': {'Fish': 'Vegetable soup'}
-            }
-
-            for meal in ['Breakfast', 'Lunch', 'Dinner']:
-                for item, replacement in replacements.get(meal, {}).items():
-                    if item in locals()[f'prediction_{meal.lower()}']:
-                        idx = np.where(locals()[f'prediction_{meal.lower()}'] == item)
-                        locals()[f'prediction_{meal.lower()}'][idx] = replacement
-
         return prediction_breakfast, prediction_lunch, prediction_dinner
-    
+
+recommender = RecommendationGenerator()
+
 class Display:
     def display_bmi(self, person):
         st.header('BMI CALCULATOR')
@@ -167,5 +171,6 @@ with st.form("recommendation_from"):
         with st.container():
             display.display_calories(person)
         with st.spinner('Generating recommendations...this may take a few seconds'):
-            breakfast, lunch, dinner = person.generate_recommendation()
+            breakfast, lunch, dinner = recommender.generate_recommendation(age, height, weight, gender, activity, nutritional_preference, disease)
+            st.write("Recommendations:")
             display.display_recommendations(breakfast, lunch, dinner)
