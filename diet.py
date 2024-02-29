@@ -3,10 +3,9 @@ import pandas as pd
 from catboost import CatBoostClassifier
 import time
 import joblib
+import numpy as np
 
 st.set_page_config(page_title="Diet Recommendation", page_icon="💪", layout="wide")
-
-nutritions_values=['Calories','FatContent','SaturatedFatContent','CholesterolContent','SodiumContent','CarbohydrateContent','FiberContent','SugarContent','ProteinContent']
 
 #Streamlit states initialization
 
@@ -92,7 +91,8 @@ class RecommendationGenerator:
 
             joblib.dump(clf, filename)
             return clf
-
+        
+    #71, 166, 55, Female, Light excercise, Veg, diabetes
     def generate_recommendation(self, age, height, weight, gender, activity_level, nutritional_preference, disease):
         diseases_str = ', '.join(disease)
 
@@ -109,6 +109,38 @@ class RecommendationGenerator:
         prediction_breakfast = self.clf_breakfast.predict(user_input)[0]
         prediction_lunch = self.clf_lunch.predict(user_input)[0]
         prediction_dinner = self.clf_dinner.predict(user_input)[0]
+
+        if nutritional_preference=='Veg':
+            prediction_lunch_str = ', '.join(prediction_lunch)
+            prediction_breakfast_str=','.join(prediction_breakfast)
+            prediction_dinner_str=','.join(prediction_dinner)
+
+            breakfast_options=prediction_breakfast_str.split(',')
+            if 'Egg' in breakfast_options:
+                breakfast_options[breakfast_options.index('Egg')] = 'Beans and Lentils'
+                prediction_breakfast_str = ', '.join(breakfast_options)
+                prediction_breakfast_orig = np.array(breakfast_options)
+            else:
+                prediction_breakfast_orig=prediction_breakfast
+
+            lunch_options = prediction_lunch_str.split(', ')
+            if 'Fish' in lunch_options:
+                lunch_options[lunch_options.index('Fish')] = 'Chapathi'
+                prediction_lunch_str = ', '.join(lunch_options)
+                prediction_lunch_orig = np.array(lunch_options)
+            else:
+                prediction_lunch_orig=prediction_lunch
+
+            dinner_options = prediction_dinner_str.split(', ')
+            if 'Fish' in dinner_options:
+                dinner_options[dinner_options.index('Fish')] = 'Ragi Dosa'
+                prediction_dinner_str = ', '.join(dinner_options)
+                prediction_dinner_orig = np.array(dinner_options)
+            else:
+                prediction_dinner_orig=prediction_dinner
+
+        
+            return prediction_breakfast_orig, prediction_lunch_orig, prediction_dinner_orig
         
         return prediction_breakfast, prediction_lunch, prediction_dinner
 
