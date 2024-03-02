@@ -13,6 +13,13 @@ if 'person' not in st.session_state:
     st.session_state.generated=False
     st.session_state.recommendations=None
     st.session_state.person=None
+    st.session_state.age = None
+    st.session_state.height = None
+    st.session_state.weight = None
+    st.session_state.gender = None
+    st.session_state.activity_level = None
+    st.session_state.nutritional_preference = None
+    st.session_state.disease = None
 
 class Person:
     def __init__(self, age, height, weight, gender, activity_level, nutritional_preference, disease):
@@ -184,18 +191,27 @@ title="<h1 style='text-align: center;'>Automatic Diet Recommendation</h1>"
 st.markdown(title, unsafe_allow_html=True)
 with st.form("recommendation_from"):
     st.write("Modify the values and click the generate button to view your diet plan")
-    age=st.number_input('Age', min_value=40, max_value=100, step=1)
-    height = st.number_input('Height (in cm)',min_value=140, max_value=200, step=1)
-    weight = st.number_input('Weight (in kg)',min_value=30, max_value=150, step=1)
-    gender = st.radio('Gender',('Male','Female'))
-    activity = st.select_slider('Activity',options=['Little/no exercise', 'Light exercise', 'Moderate exercise (3-5 days/wk)', 'Very active (6-7 days/wk)', 
-    'Extra active (very active & physical job)'])
-    nutritional_preference=st.radio('Nutritional Preference', ('Non-veg', 'Veg'))
+    age = st.number_input('Age', min_value=40, max_value=100, step=1, value=st.session_state.get('age', None))
+    height = st.number_input('Height (in cm)',min_value=140, max_value=200, step=1, value=st.session_state.get('height', None))
+    weight = st.number_input('Weight (in kg)',min_value=30, max_value=150, step=1, value=st.session_state.get('weight', None))
+    gender = st.radio('Gender',('Male','Female'), index=0 if st.session_state.get('gender', None) == 'Male' else 1)
+    activity_levels = ['Little/no exercise', 'Light exercise', 'Moderate exercise (3-5 days/wk)', 'Very active (6-7 days/wk)', 'Extra active (very active & physical job)']
+    activity_index = activity_levels.index(st.session_state.get('activity_level', None)) if st.session_state.get('activity_level', None) in activity_levels else 0
+    activity = st.select_slider('Activity', options=activity_levels, value=st.session_state.get('activity_level', None), format_func=lambda x: x)
+    nutritional_preference=st.radio('Nutritional Preference', ('Non-veg', 'Veg'), index=0 if st.session_state.get('nutritional_preference', None) == 'Non-veg' else 1)
     disease_options=["Hypertension", "Arthritis", "Diabetes", "Cardiovascular diseases", "Osteoporosis", "Alzheimer's", "Chronic Obstructive Pulmonary Disease (COPD)", 'Cancer', 'Depression and anxiety disorders', 'Visual Impairments', 'No diseases']
-    disease=st.multiselect("Select the diseases you suffer from: ", disease_options)
+    disease=st.multiselect("Select the diseases you suffer from: ", disease_options, default=st.session_state.get('disease', None))
     generated=st.form_submit_button("Generate")
 
     if generated:
+        st.session_state.age = age
+        st.session_state.height = height
+        st.session_state.weight = weight
+        st.session_state.gender = gender
+        st.session_state.activity_level = activity
+        st.session_state.nutritional_preference = nutritional_preference
+        st.session_state.disease = disease
+
         st.session_state.generated=True
         person = Person(age,height,weight,gender,activity,nutritional_preference, disease)
         with st.container():
@@ -204,5 +220,4 @@ with st.form("recommendation_from"):
             display.display_calories(person)
         with st.spinner('Generating recommendations...this may take a few seconds'):
             breakfast, lunch, dinner = recommender.generate_recommendation(age, height, weight, gender, activity, nutritional_preference, disease)
-            st.write("Recommendations:")
             display.display_recommendations(breakfast, lunch, dinner)
